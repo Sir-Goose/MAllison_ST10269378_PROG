@@ -1,0 +1,27 @@
+﻿<Window x:Class="MAllison_ST10269378_PROG.MainWindow"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Recipe App" Height="450" Width="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1">
+            <lvc:PieChart x:Name="FoodGroupPieChart" LegendLocation="Bottom" Margin="10"/>
+        </Grid>
+
+        <StackPanel Grid.Column="0" Margin="10">
+            <Button x:Name="AddRecipeButton" Content="Add Recipe" Margin="5" Click="AddRecipeButton_Click"/>
+            <Button x:Name="ViewRecipeButton" Content="View Recipe" Margin="5" Click="ViewRecipeButton_Click"/>
+            <ListBox x:Name="RecipeListBox" Margin="5" SelectionMode="Multiple"/>
+            <Button x:Name="GenerateMenuButton" Content="Generate Menu" Margin="5" Click="GenerateMenuButton_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
