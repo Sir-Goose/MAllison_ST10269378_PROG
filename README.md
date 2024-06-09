@@ -1,11 +1,11 @@
-# Matthew Allison ST10269378 PROG6221 POE
+# Matthew Allison ST10269378 PROG6221 POE README
 
 ### Instructions to compile and run the application
 
 #### 1. Clone the Repo
 ``` sh
-git clone https://github.com/Sir-Goose/MatthewAllison_ST10269378_PRGO6221_POE.git
-cd MatthewAllison_ST10269378_PROG6221_POE
+git clone https://github.com/Sir-Goose/MAllison_ST10269378_PROG.git
+cd MAllison_ST10269378_PROG
 ```
 
 #### 2. Open the Solution in Visual Studio
