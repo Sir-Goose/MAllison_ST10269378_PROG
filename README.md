@@ -25,14 +25,13 @@ Run the application to see it in action:
 
 
 ### Major Changes Made
-- User can now enter an unlimited number of recipes.
-- User can enter a name for each individual recipe.
-- List recipes is displayed alphabetically by name.
-- User can choose which recipe to display.
-- User can enter the calories and food group for each ingredient.
-- A total calorie calculation gets performed.
-- User is notified when calories exceed 300.
-- Unit test created for the calorie notification system.
+- Application now has a full graphical user interface using the WPF framework
+- User can select multiple recipes to include in a menu
+- A pie chart can be generated from the user's selection of recipes
+- Pie chart shows how many calories of the total each food group takes up
+- Error checking such as input validation has been added with pop up error messages displayed to the user
+- Full graphical process for creating new recipes
+- Full graphical process for viewing recipes
 
 
 
