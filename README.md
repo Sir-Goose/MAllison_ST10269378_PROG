@@ -32,6 +32,8 @@ Run the application to see it in action:
 - Error checking such as input validation has been added with pop up error messages displayed to the user
 - Full graphical process for creating new recipes
 - Full graphical process for viewing recipes
+- Chosen list of recipes when viewed displays with a range of useful values
+  
 
 
 
