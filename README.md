@@ -54,6 +54,7 @@ Run the application to see it in action:
 
 ### References
 + https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/dd434207(v=vs.100)
++ https://www.techsmith.com/blog/user-documentation/
 + https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/bb514519(v=vs.100)
 + https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/bb546972(v=vs.100)
 + https://learn.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-wpf?view=vs-2022
